@@ -72,12 +72,12 @@ main {
     }
 
     .personajes {
-        transform: scale(0.7);
+        transform: scale(0.6);
         transform-origin: top;
         display: grid;
         justify-content: center;
         grid-template-columns: 1fr 1fr;
-        gap: 10px;
+        gap: 20px;
     }
 
     .footer h4 {
@@ -89,6 +89,6 @@ main {
     }
 
     .todos {
-        height: 8700px;
+        height: 7600px;
     }
 }
