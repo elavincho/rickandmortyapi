@@ -12,7 +12,7 @@ for(let i = 1; i <= 60; i++) {
 function mostrarPersonajes(data) {
 
     const div = document.createElement("div");
-    div.classList.add("personajes");
+    div.classList.add("personaje");
     div.innerHTML = `
     <div class="flip-card">
                     <div class="card-content">
