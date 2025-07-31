@@ -1,13 +1,22 @@
 
-const url = "https://rickandmortyapi.com/api/character/";
-
 const listaPersonajes = document.querySelector("#lista-personajes");
 
-for(let i = 1; i <= 60; i++) {
-    fetch(url + i)
-    .then((response) => response.json())
-    .then(data => mostrarPersonajes(data))
+async function consultarApi() {
+    const url = "https://rickandmortyapi.com/api/character/";
+
+    for (let i = 1; i <= 100; i++) {
+        await fetch(url + i)
+            .then((response) => response.json())
+            .then(data => mostrarPersonajes(data))
+            .catch( () => {
+                if(i < 1){
+                    alert("No se pudo obtener datos de la API");
+                }
+            })
+    }
 }
+
+consultarApi();
 
 function mostrarPersonajes(data) {
 
