@@ -4,7 +4,7 @@ const listaPersonajes = document.querySelector("#lista-personajes");
 async function consultarApi() {
     const url = "https://rickandmortyapi.com/api/character/";
 
-    for (let i = 1; i <= 100; i++) {
+    for (let i = 1; i <= 60; i++) {
         await fetch(url + i)
             .then((response) => response.json())
             .then(data => mostrarPersonajes(data))
