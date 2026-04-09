@@ -20,7 +20,7 @@ En este proyecto realicé tarjetas de Rick and Morty, obteniendo datos de la **A
   
 ## Objetivo del Proyecto
 
-Este sistema tiene la finalidad de crear tarjetas de Rick and Morty, utilizando **JavaScript** de forma asincrona con **fetch, then y catch**.  Obtenemos todos los datos de la **API de Rick and Morty** la cual nos brinda la siguiente información:
+Este sistema tiene la finalidad de crear tarjetas de Rick and Morty, utilizando **JavaScript** de forma asincrona con **fetch(), then() y catch()**.  Obtenemos todos los datos de la **API de Rick and Morty** la cual nos brinda la siguiente información:
 
 - Nombre del personaje
 - Estatus
