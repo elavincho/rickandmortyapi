@@ -1,4 +1,3 @@
-
 const listaPersonajes = document.querySelector("#lista-personajes");
 
 async function consultarApi() {
@@ -40,5 +39,3 @@ function mostrarPersonajes(data) {
 
     listaPersonajes.append(div);
 }
-
-
